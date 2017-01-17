@@ -1,7 +1,7 @@
 {
-  "name": "cirrus",
-  "version": "0.4.0",
-  "description": "Cloudformation management CLI tool",
+  "name": "cirrus-kms-decryption",
+  "version": "0.5.0",
+  "description": "Cloudformation management CLI tool. Forked from cirrus",
   "main": "bin/cirrus.js",
   "bin": {
     "cirrus": "bin/cirrus.js"
@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SomeoneWeird/cirrus.git"
+    "url": "git+https://github.com/joffotron/cirrus.git"
   },
   "keywords": [
     "cloudformation",
     "amazon",
     "cli"
   ],
-  "author": "Adam Brady <adam@boxxen.org>",
+  "author": "Joseph Miller <joff@joff.codes>, Adam Brady <adam@boxxen.org>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SomeoneWeird/cirrus/issues"
+    "url": "https://github.com/joffotron/cirrus/issues"
   },
-  "homepage": "https://github.com/SomeoneWeird/cirrus#readme",
+  "homepage": "https://github.com/joffotron/cirrus#readme",
   "dependencies": {
     "async": "^1.5.2",
     "aws-sdk": "^2.3.0",
